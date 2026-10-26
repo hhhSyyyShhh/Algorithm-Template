@@ -1,0 +1,52 @@
+# macOS / Windows
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+
+# C / C++ compilation outputs
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.dSYM/
+a.out
+
+# Build directories and CMake generated files
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Personal IDE state (keep shareable editor configuration)
+.idea/
+.vscode/ipch/
+.vscode/*.log
+.vs/
+*.user
+*.suo
+
+# Python verification cache
+__pycache__/
+*.py[cod]
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
